@@ -44,8 +44,9 @@ const pages = () => {
 
        <button onClick={() => {if(page === FormTitles.length - 1) {
         alert('form submitted')
-        // console.log(formData)
-        localStorage.setItem('formData', JSON.stringify(formData));
+        const info = Object.values(formData);
+        // console.log(info)
+        localStorage.setItem('info', JSON.stringify(info));
         navigate('/details')
        } else {
         setPage((currPage) => currPage + 1)
