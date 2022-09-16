@@ -3,7 +3,7 @@ import Data_1 from './Data_1'
 import Data_2 from './Data_2'
 import Data_3 from './Data_3'
 import style from './form.css'
-import  { useNavigate }  from 'react-router-dom'
+import  { NavLink, useNavigate }  from 'react-router-dom'
 
 const Form = () => {
 const [page, setPage] = React.useState(0)
@@ -54,7 +54,9 @@ const pages = () => {
         {page === FormTitles.length - 1 ? "Submitted" : "Next"}
        </button>
        </div>
-       
+       <br />
+       <br />
+       <NavLink style={{color:"blue"}} to='/details'>GO TO FORM  DETAILS</NavLink>
     </div>
   )
 }
