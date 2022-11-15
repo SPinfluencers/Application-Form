@@ -1,9 +1,9 @@
 .form {
     margin: auto;
-    width: 500px;
+    width: 800px;
     border: 1px solid none;
     padding: 2%;
-    background-color: teal;
+    background-color: whitesmoke;
 }
 button{
     margin-top: 10px;

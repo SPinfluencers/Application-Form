@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid white ;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+.left {
+    border: 1px solid white;
+    padding: 3%;
+    background-color: white;
+}
+input {
+    padding: 10px 50px;
+}
+select {
+    padding: 10px 50px;
+}

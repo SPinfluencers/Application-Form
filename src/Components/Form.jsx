@@ -10,12 +10,20 @@ const [page, setPage] = React.useState(0)
 const [formData, setFormData] = React.useState({
   firstName: '',
   lastName: '',
+  email: '',
+  age: '',
+  hight: '',
+  middleName: '',
   mobile: "",
+  birthday: '',
+  bloodGroup: '',
+  weight: '',
+  gender: '',
   college: '',
   branch: '',
   country: '',
   state: '',
-  city: ''
+  city: '',
 })
 
 let navigate = useNavigate()

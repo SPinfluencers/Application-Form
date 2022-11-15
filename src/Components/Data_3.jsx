@@ -3,7 +3,7 @@ import React from 'react'
 const Data_3 = ({ formData, setFormData }) => {
   return (
     <div>
-        <h2 style={{color:'white'}}>Location Information</h2>
+        <h2 style={{color:'black'}}>Location Information</h2>
         <input 
         type="text"
         placeholder='Country'
