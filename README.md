@@ -16,4 +16,4 @@
 - use local storage tio set and get the form data 
 
 # Deplyment Link
-https://taupe-entremet-cff93b.netlify.app/
+https://sweet-dolphin-2b8881.netlify.app/

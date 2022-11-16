@@ -4,7 +4,7 @@ import styles from '../Components/data1.module.css'
 
 const Data_1 = ({ formData, setFormData }) => {
   return (
-    <div><h3>USER INFORMATION</h3>
+    <div><h2>USER INFORMATION</h2>
     <div className={styles.container}>
       <div className={styles.left}>
         <input 
