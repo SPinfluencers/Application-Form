@@ -13,5 +13,8 @@ input {
     padding: 10px 50px;
 }
 select {
-    padding: 10px 50px;
+    padding: 10px 30px;
+}
+option {
+    padding: 10px 30px;
 }

@@ -1,0 +1,16 @@
+.details {
+    border: 1px solid white;
+    padding: 2%;
+    background-color: whitesmoke;
+}
+
+.details_1 {
+    border: 1px solid white;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+h3 {
+    color: gray;
+}

@@ -58,6 +58,7 @@ const Data_1 = ({ formData, setFormData }) => {
           <label htmlFor="">female</label>
         </div>
 
+
         <div className={styles.left}>
         <input 
         type="text"

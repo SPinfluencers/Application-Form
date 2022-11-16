@@ -8,6 +8,7 @@ import  { NavLink, useNavigate }  from 'react-router-dom'
 const Form = () => {
 const [page, setPage] = React.useState(0)
 const [formData, setFormData] = React.useState({
+  // DATA-1
   firstName: '',
   lastName: '',
   email: '',
@@ -19,11 +20,19 @@ const [formData, setFormData] = React.useState({
   bloodGroup: '',
   weight: '',
   gender: '',
-  college: '',
-  branch: '',
-  country: '',
-  state: '',
+
+  // DATA-2
+  address1: '',
+  address2: '',
+  country_state: '',
   city: '',
+  country: '',
+  pin_code: '',
+
+  // DATA-3
+  skills: '',
+  language: '',
+
 })
 
 let navigate = useNavigate()
